@@ -39,8 +39,8 @@ include 'clases/pais.php';
             <td><?php echo $pais['Moneda']?></td>
             <td><?php echo $pais['Capital']?></td>
 
-            <td><a href="editar.php?id= <?php echo $pais['Id']?>">Editar</a></td>
-            <td><a href="controlador/eliminar.php?id=<?php echo $pais['Id'];?>">Eliminar</a></td>
+            <td><a href="controlador/editar.php?id= <?php echo $categoria['IdCategoria']?>">Editar</a></td>
+            <td><a href="controlador/eliminar.php?id=<?php echo $categoria['IdCategoria'];?>">Eliminar</a></td>
 
         </tr>
         <?php

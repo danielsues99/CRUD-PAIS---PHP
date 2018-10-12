@@ -14,6 +14,7 @@ $Poblacion;
 $Moneda;
 $Capital;
 
+
 while($pais = mysqli_fetch_array($datospais)){
    $Id = $pais['Id'];
    $Nombre = $pais['Nombre'];

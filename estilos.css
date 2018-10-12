@@ -1,0 +1,15 @@
+.indice{
+    background-image: 
+    url(https://cdn2.dineroenimagen.com/media/dinero/styles/gallerie/public/images/2018/04/mapa-mundo.jpg);
+    background-size: 100%,100%; 
+}
+.titulo{
+    color: rgb(117, 143, 201);
+    font-size: 500%;
+}
+.btninicio{
+    margin: 40em;
+    color: rgb(19, 51, 100);
+    size: 10em;
+    }
+

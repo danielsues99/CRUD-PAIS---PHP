@@ -7,5 +7,5 @@ $objConexion = new conexion();
 $objPais = new pais();
 
 $conexion = $objConexion->conectar();
-echo $objPais->eliminar($conexion, $_GET['id']);
+echo $objPais->eliminar($conexion, $_GET['IdCategoria']);
 echo "<center><a href ='../consultar.php'><button>Volver</button></a></center>";
